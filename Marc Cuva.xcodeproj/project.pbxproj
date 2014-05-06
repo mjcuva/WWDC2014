@@ -1,0 +1,600 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4904F79C18F86CB000ABE600 /* EducationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4904F79B18F86CB000ABE600 /* EducationViewController.m */; };
+		4904F79F18F8836100ABE600 /* ExpandAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4904F79E18F8836100ABE600 /* ExpandAnimationController.m */; };
+		4904F7A218F8B08C00ABE600 /* ProjectsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4904F7A118F8B08C00ABE600 /* ProjectsViewController.m */; };
+		4904F7A518F8B18E00ABE600 /* SkillsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4904F7A418F8B18E00ABE600 /* SkillsViewController.m */; };
+		4904F7A918F8CF5A00ABE600 /* education.html in Resources */ = {isa = PBXBuildFile; fileRef = 4904F7A818F8CF5900ABE600 /* education.html */; };
+		4904F7B518F9AAAE00ABE600 /* education2.html in Resources */ = {isa = PBXBuildFile; fileRef = 4904F7B418F9AAAE00ABE600 /* education2.html */; };
+		4904F7B918F9BFD900ABE600 /* um.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4904F7B818F9BFD900ABE600 /* um.jpg */; };
+		4904F7BB18F9C1A800ABE600 /* hs.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4904F7BA18F9C1A800ABE600 /* hs.jpg */; };
+		4904F7BD18F9CE2900ABE600 /* es.png in Resources */ = {isa = PBXBuildFile; fileRef = 4904F7BC18F9CE2900ABE600 /* es.png */; };
+		4904F7BF18F9D06200ABE600 /* projects.html in Resources */ = {isa = PBXBuildFile; fileRef = 4904F7BE18F9D06200ABE600 /* projects.html */; };
+		4904F7C118F9D42E00ABE600 /* connectedwire.png in Resources */ = {isa = PBXBuildFile; fileRef = 4904F7C018F9D42E00ABE600 /* connectedwire.png */; };
+		4904F7C518F9D58700ABE600 /* projects2.html in Resources */ = {isa = PBXBuildFile; fileRef = 4904F7C418F9D58700ABE600 /* projects2.html */; };
+		4904F7CB18F9DC8200ABE600 /* codes.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4904F7CA18F9DC8200ABE600 /* codes.jpg */; };
+		4904F7CD18F9DD5400ABE600 /* skills.html in Resources */ = {isa = PBXBuildFile; fileRef = 4904F7CC18F9DD5400ABE600 /* skills.html */; };
+		4908CBE118F753D900653217 /* intro.html in Resources */ = {isa = PBXBuildFile; fileRef = 4908CBE018F753D900653217 /* intro.html */; };
+		4908CBE418F758BE00653217 /* ScrollingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4908CBE318F758BE00653217 /* ScrollingView.m */; };
+		4908CBE718F75E5700653217 /* HTMLFileDisplayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4908CBE618F75E5700653217 /* HTMLFileDisplayer.m */; };
+		4908CBE918F7628A00653217 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4908CBE818F7628A00653217 /* MapKit.framework */; };
+		49A1822E18F0F2CC00DB6AAB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49A1822D18F0F2CC00DB6AAB /* Foundation.framework */; };
+		49A1823018F0F2CC00DB6AAB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49A1822F18F0F2CC00DB6AAB /* CoreGraphics.framework */; };
+		49A1823218F0F2CC00DB6AAB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49A1823118F0F2CC00DB6AAB /* UIKit.framework */; };
+		49A1823818F0F2CC00DB6AAB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 49A1823618F0F2CC00DB6AAB /* InfoPlist.strings */; };
+		49A1823A18F0F2CC00DB6AAB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 49A1823918F0F2CC00DB6AAB /* main.m */; };
+		49A1823E18F0F2CC00DB6AAB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 49A1823D18F0F2CC00DB6AAB /* AppDelegate.m */; };
+		49A1824118F0F2CC00DB6AAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49A1823F18F0F2CC00DB6AAB /* Main.storyboard */; };
+		49A1824618F0F2CC00DB6AAB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49A1824518F0F2CC00DB6AAB /* Images.xcassets */; };
+		49A1824D18F0F2CC00DB6AAB /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49A1824C18F0F2CC00DB6AAB /* XCTest.framework */; };
+		49A1824E18F0F2CC00DB6AAB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49A1822D18F0F2CC00DB6AAB /* Foundation.framework */; };
+		49A1824F18F0F2CC00DB6AAB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49A1823118F0F2CC00DB6AAB /* UIKit.framework */; };
+		49A1825718F0F2CC00DB6AAB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 49A1825518F0F2CC00DB6AAB /* InfoPlist.strings */; };
+		49A1825918F0F2CC00DB6AAB /* Marc_CuvaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 49A1825818F0F2CC00DB6AAB /* Marc_CuvaTests.m */; };
+		49A1826418F0F30F00DB6AAB /* IntroViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49A1826318F0F30F00DB6AAB /* IntroViewController.m */; };
+		49A1826918F0F5FB00DB6AAB /* grad.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 49A1826818F0F5FB00DB6AAB /* grad.jpeg */; };
+		49D3AAFA18F85237004ED7AD /* DecelerationBehaviour.m in Sources */ = {isa = PBXBuildFile; fileRef = 49D3AAF918F85237004ED7AD /* DecelerationBehaviour.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		49A1825018F0F2CC00DB6AAB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49A1822218F0F2CC00DB6AAB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49A1822918F0F2CC00DB6AAB;
+			remoteInfo = "Marc Cuva";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4904F79A18F86CB000ABE600 /* EducationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EducationViewController.h; sourceTree = "<group>"; };
+		4904F79B18F86CB000ABE600 /* EducationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EducationViewController.m; sourceTree = "<group>"; };
+		4904F79D18F8836100ABE600 /* ExpandAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExpandAnimationController.h; sourceTree = "<group>"; };
+		4904F79E18F8836100ABE600 /* ExpandAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExpandAnimationController.m; sourceTree = "<group>"; };
+		4904F7A018F8B08C00ABE600 /* ProjectsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProjectsViewController.h; sourceTree = "<group>"; };
+		4904F7A118F8B08C00ABE600 /* ProjectsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProjectsViewController.m; sourceTree = "<group>"; };
+		4904F7A318F8B18E00ABE600 /* SkillsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkillsViewController.h; sourceTree = "<group>"; };
+		4904F7A418F8B18E00ABE600 /* SkillsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SkillsViewController.m; sourceTree = "<group>"; };
+		4904F7A818F8CF5900ABE600 /* education.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = education.html; sourceTree = "<group>"; };
+		4904F7B418F9AAAE00ABE600 /* education2.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = education2.html; sourceTree = "<group>"; };
+		4904F7B818F9BFD900ABE600 /* um.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = um.jpg; sourceTree = "<group>"; };
+		4904F7BA18F9C1A800ABE600 /* hs.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hs.jpg; sourceTree = "<group>"; };
+		4904F7BC18F9CE2900ABE600 /* es.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = es.png; sourceTree = "<group>"; };
+		4904F7BE18F9D06200ABE600 /* projects.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = projects.html; sourceTree = "<group>"; };
+		4904F7C018F9D42E00ABE600 /* connectedwire.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = connectedwire.png; sourceTree = "<group>"; };
+		4904F7C418F9D58700ABE600 /* projects2.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = projects2.html; sourceTree = "<group>"; };
+		4904F7CA18F9DC8200ABE600 /* codes.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = codes.jpg; sourceTree = "<group>"; };
+		4904F7CC18F9DD5400ABE600 /* skills.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = skills.html; sourceTree = "<group>"; };
+		4908CBE018F753D900653217 /* intro.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = intro.html; sourceTree = "<group>"; };
+		4908CBE218F758BE00653217 /* ScrollingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollingView.h; sourceTree = "<group>"; };
+		4908CBE318F758BE00653217 /* ScrollingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollingView.m; sourceTree = "<group>"; };
+		4908CBE518F75E5700653217 /* HTMLFileDisplayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMLFileDisplayer.h; sourceTree = "<group>"; };
+		4908CBE618F75E5700653217 /* HTMLFileDisplayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTMLFileDisplayer.m; sourceTree = "<group>"; };
+		4908CBE818F7628A00653217 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		49A1822A18F0F2CC00DB6AAB /* Marc Cuva.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Marc Cuva.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		49A1822D18F0F2CC00DB6AAB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		49A1822F18F0F2CC00DB6AAB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		49A1823118F0F2CC00DB6AAB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		49A1823518F0F2CC00DB6AAB /* Marc Cuva-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Marc Cuva-Info.plist"; sourceTree = "<group>"; };
+		49A1823718F0F2CC00DB6AAB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		49A1823918F0F2CC00DB6AAB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		49A1823B18F0F2CC00DB6AAB /* Marc Cuva-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Marc Cuva-Prefix.pch"; sourceTree = "<group>"; };
+		49A1823C18F0F2CC00DB6AAB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		49A1823D18F0F2CC00DB6AAB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		49A1824018F0F2CC00DB6AAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		49A1824518F0F2CC00DB6AAB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		49A1824B18F0F2CC00DB6AAB /* Marc CuvaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Marc CuvaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		49A1824C18F0F2CC00DB6AAB /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		49A1825418F0F2CC00DB6AAB /* Marc CuvaTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Marc CuvaTests-Info.plist"; sourceTree = "<group>"; };
+		49A1825618F0F2CC00DB6AAB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		49A1825818F0F2CC00DB6AAB /* Marc_CuvaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Marc_CuvaTests.m; sourceTree = "<group>"; };
+		49A1826218F0F30F00DB6AAB /* IntroViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntroViewController.h; sourceTree = "<group>"; };
+		49A1826318F0F30F00DB6AAB /* IntroViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntroViewController.m; sourceTree = "<group>"; };
+		49A1826818F0F5FB00DB6AAB /* grad.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = grad.jpeg; path = ../grad.jpeg; sourceTree = "<group>"; };
+		49D3AAF818F85237004ED7AD /* DecelerationBehaviour.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DecelerationBehaviour.h; sourceTree = "<group>"; };
+		49D3AAF918F85237004ED7AD /* DecelerationBehaviour.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DecelerationBehaviour.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		49A1822718F0F2CC00DB6AAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49A1823018F0F2CC00DB6AAB /* CoreGraphics.framework in Frameworks */,
+				49A1823218F0F2CC00DB6AAB /* UIKit.framework in Frameworks */,
+				4908CBE918F7628A00653217 /* MapKit.framework in Frameworks */,
+				49A1822E18F0F2CC00DB6AAB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49A1824818F0F2CC00DB6AAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49A1824D18F0F2CC00DB6AAB /* XCTest.framework in Frameworks */,
+				49A1824F18F0F2CC00DB6AAB /* UIKit.framework in Frameworks */,
+				49A1824E18F0F2CC00DB6AAB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		490398DC18FC479D008A07BF /* HTML Files */ = {
+			isa = PBXGroup;
+			children = (
+				4908CBE018F753D900653217 /* intro.html */,
+				4904F7A818F8CF5900ABE600 /* education.html */,
+				4904F7B418F9AAAE00ABE600 /* education2.html */,
+				4904F7BE18F9D06200ABE600 /* projects.html */,
+				4904F7C418F9D58700ABE600 /* projects2.html */,
+				4904F7CC18F9DD5400ABE600 /* skills.html */,
+			);
+			name = "HTML Files";
+			sourceTree = "<group>";
+		};
+		490398DD18FC47BC008A07BF /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				4904F7BA18F9C1A800ABE600 /* hs.jpg */,
+				49A1826818F0F5FB00DB6AAB /* grad.jpeg */,
+				4904F7B818F9BFD900ABE600 /* um.jpg */,
+				4904F7BC18F9CE2900ABE600 /* es.png */,
+				4904F7C018F9D42E00ABE600 /* connectedwire.png */,
+				4904F7CA18F9DC8200ABE600 /* codes.jpg */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		490398DE18FC47CC008A07BF /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				49A1826218F0F30F00DB6AAB /* IntroViewController.h */,
+				49A1826318F0F30F00DB6AAB /* IntroViewController.m */,
+				4904F79A18F86CB000ABE600 /* EducationViewController.h */,
+				4904F79B18F86CB000ABE600 /* EducationViewController.m */,
+				4904F7A018F8B08C00ABE600 /* ProjectsViewController.h */,
+				4904F7A118F8B08C00ABE600 /* ProjectsViewController.m */,
+				4904F7A318F8B18E00ABE600 /* SkillsViewController.h */,
+				4904F7A418F8B18E00ABE600 /* SkillsViewController.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		49A1822118F0F2CC00DB6AAB = {
+			isa = PBXGroup;
+			children = (
+				49A1823318F0F2CC00DB6AAB /* Marc Cuva */,
+				49A1825218F0F2CC00DB6AAB /* Marc CuvaTests */,
+				49A1822C18F0F2CC00DB6AAB /* Frameworks */,
+				49A1822B18F0F2CC00DB6AAB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		49A1822B18F0F2CC00DB6AAB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				49A1822A18F0F2CC00DB6AAB /* Marc Cuva.app */,
+				49A1824B18F0F2CC00DB6AAB /* Marc CuvaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		49A1822C18F0F2CC00DB6AAB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4908CBE818F7628A00653217 /* MapKit.framework */,
+				49A1822D18F0F2CC00DB6AAB /* Foundation.framework */,
+				49A1822F18F0F2CC00DB6AAB /* CoreGraphics.framework */,
+				49A1823118F0F2CC00DB6AAB /* UIKit.framework */,
+				49A1824C18F0F2CC00DB6AAB /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		49A1823318F0F2CC00DB6AAB /* Marc Cuva */ = {
+			isa = PBXGroup;
+			children = (
+				49A1823F18F0F2CC00DB6AAB /* Main.storyboard */,
+				49A1823C18F0F2CC00DB6AAB /* AppDelegate.h */,
+				49A1823D18F0F2CC00DB6AAB /* AppDelegate.m */,
+				4904F79D18F8836100ABE600 /* ExpandAnimationController.h */,
+				4904F79E18F8836100ABE600 /* ExpandAnimationController.m */,
+				49D3AAF818F85237004ED7AD /* DecelerationBehaviour.h */,
+				49D3AAF918F85237004ED7AD /* DecelerationBehaviour.m */,
+				4908CBE518F75E5700653217 /* HTMLFileDisplayer.h */,
+				4908CBE618F75E5700653217 /* HTMLFileDisplayer.m */,
+				4908CBE218F758BE00653217 /* ScrollingView.h */,
+				4908CBE318F758BE00653217 /* ScrollingView.m */,
+				490398DE18FC47CC008A07BF /* View Controllers */,
+				49A1824518F0F2CC00DB6AAB /* Images.xcassets */,
+				49A1823418F0F2CC00DB6AAB /* Supporting Files */,
+				490398DC18FC479D008A07BF /* HTML Files */,
+				490398DD18FC47BC008A07BF /* Images */,
+			);
+			path = "Marc Cuva";
+			sourceTree = "<group>";
+		};
+		49A1823418F0F2CC00DB6AAB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				49A1823518F0F2CC00DB6AAB /* Marc Cuva-Info.plist */,
+				49A1823618F0F2CC00DB6AAB /* InfoPlist.strings */,
+				49A1823918F0F2CC00DB6AAB /* main.m */,
+				49A1823B18F0F2CC00DB6AAB /* Marc Cuva-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		49A1825218F0F2CC00DB6AAB /* Marc CuvaTests */ = {
+			isa = PBXGroup;
+			children = (
+				49A1825818F0F2CC00DB6AAB /* Marc_CuvaTests.m */,
+				49A1825318F0F2CC00DB6AAB /* Supporting Files */,
+			);
+			path = "Marc CuvaTests";
+			sourceTree = "<group>";
+		};
+		49A1825318F0F2CC00DB6AAB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				49A1825418F0F2CC00DB6AAB /* Marc CuvaTests-Info.plist */,
+				49A1825518F0F2CC00DB6AAB /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		49A1822918F0F2CC00DB6AAB /* Marc Cuva */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49A1825C18F0F2CC00DB6AAB /* Build configuration list for PBXNativeTarget "Marc Cuva" */;
+			buildPhases = (
+				49A1822618F0F2CC00DB6AAB /* Sources */,
+				49A1822718F0F2CC00DB6AAB /* Frameworks */,
+				49A1822818F0F2CC00DB6AAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Marc Cuva";
+			productName = "Marc Cuva";
+			productReference = 49A1822A18F0F2CC00DB6AAB /* Marc Cuva.app */;
+			productType = "com.apple.product-type.application";
+		};
+		49A1824A18F0F2CC00DB6AAB /* Marc CuvaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49A1825F18F0F2CC00DB6AAB /* Build configuration list for PBXNativeTarget "Marc CuvaTests" */;
+			buildPhases = (
+				49A1824718F0F2CC00DB6AAB /* Sources */,
+				49A1824818F0F2CC00DB6AAB /* Frameworks */,
+				49A1824918F0F2CC00DB6AAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49A1825118F0F2CC00DB6AAB /* PBXTargetDependency */,
+			);
+			name = "Marc CuvaTests";
+			productName = "Marc CuvaTests";
+			productReference = 49A1824B18F0F2CC00DB6AAB /* Marc CuvaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		49A1822218F0F2CC00DB6AAB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Marc Cuva";
+				TargetAttributes = {
+					49A1822918F0F2CC00DB6AAB = {
+						SystemCapabilities = {
+							com.apple.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					49A1824A18F0F2CC00DB6AAB = {
+						TestTargetID = 49A1822918F0F2CC00DB6AAB;
+					};
+				};
+			};
+			buildConfigurationList = 49A1822518F0F2CC00DB6AAB /* Build configuration list for PBXProject "Marc Cuva" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 49A1822118F0F2CC00DB6AAB;
+			productRefGroup = 49A1822B18F0F2CC00DB6AAB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				49A1822918F0F2CC00DB6AAB /* Marc Cuva */,
+				49A1824A18F0F2CC00DB6AAB /* Marc CuvaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		49A1822818F0F2CC00DB6AAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4904F7CD18F9DD5400ABE600 /* skills.html in Resources */,
+				4904F7BD18F9CE2900ABE600 /* es.png in Resources */,
+				4904F7B518F9AAAE00ABE600 /* education2.html in Resources */,
+				4904F7CB18F9DC8200ABE600 /* codes.jpg in Resources */,
+				49A1824618F0F2CC00DB6AAB /* Images.xcassets in Resources */,
+				49A1823818F0F2CC00DB6AAB /* InfoPlist.strings in Resources */,
+				4904F7BF18F9D06200ABE600 /* projects.html in Resources */,
+				4904F7BB18F9C1A800ABE600 /* hs.jpg in Resources */,
+				4904F7B918F9BFD900ABE600 /* um.jpg in Resources */,
+				49A1824118F0F2CC00DB6AAB /* Main.storyboard in Resources */,
+				4904F7A918F8CF5A00ABE600 /* education.html in Resources */,
+				4904F7C118F9D42E00ABE600 /* connectedwire.png in Resources */,
+				49A1826918F0F5FB00DB6AAB /* grad.jpeg in Resources */,
+				4904F7C518F9D58700ABE600 /* projects2.html in Resources */,
+				4908CBE118F753D900653217 /* intro.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49A1824918F0F2CC00DB6AAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49A1825718F0F2CC00DB6AAB /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		49A1822618F0F2CC00DB6AAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4904F7A518F8B18E00ABE600 /* SkillsViewController.m in Sources */,
+				49D3AAFA18F85237004ED7AD /* DecelerationBehaviour.m in Sources */,
+				4908CBE718F75E5700653217 /* HTMLFileDisplayer.m in Sources */,
+				4904F79F18F8836100ABE600 /* ExpandAnimationController.m in Sources */,
+				49A1823E18F0F2CC00DB6AAB /* AppDelegate.m in Sources */,
+				4904F7A218F8B08C00ABE600 /* ProjectsViewController.m in Sources */,
+				49A1826418F0F30F00DB6AAB /* IntroViewController.m in Sources */,
+				4904F79C18F86CB000ABE600 /* EducationViewController.m in Sources */,
+				4908CBE418F758BE00653217 /* ScrollingView.m in Sources */,
+				49A1823A18F0F2CC00DB6AAB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49A1824718F0F2CC00DB6AAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49A1825918F0F2CC00DB6AAB /* Marc_CuvaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		49A1825118F0F2CC00DB6AAB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49A1822918F0F2CC00DB6AAB /* Marc Cuva */;
+			targetProxy = 49A1825018F0F2CC00DB6AAB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		49A1823618F0F2CC00DB6AAB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49A1823718F0F2CC00DB6AAB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		49A1823F18F0F2CC00DB6AAB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49A1824018F0F2CC00DB6AAB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		49A1825518F0F2CC00DB6AAB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49A1825618F0F2CC00DB6AAB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		49A1825A18F0F2CC00DB6AAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		49A1825B18F0F2CC00DB6AAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		49A1825D18F0F2CC00DB6AAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Marc Cuva/Marc Cuva-Prefix.pch";
+				INFOPLIST_FILE = "Marc Cuva/Marc Cuva-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "E411D97E-ABD7-44AF-B09B-90C4CDA4F13D";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		49A1825E18F0F2CC00DB6AAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Marc Cuva/Marc Cuva-Prefix.pch";
+				INFOPLIST_FILE = "Marc Cuva/Marc Cuva-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "27F871B8-51F8-4ACA-83E2-840331B868D1";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		49A1826018F0F2CC00DB6AAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Marc Cuva.app/Marc Cuva";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Marc Cuva/Marc Cuva-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Marc CuvaTests/Marc CuvaTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		49A1826118F0F2CC00DB6AAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Marc Cuva.app/Marc Cuva";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Marc Cuva/Marc Cuva-Prefix.pch";
+				INFOPLIST_FILE = "Marc CuvaTests/Marc CuvaTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		49A1822518F0F2CC00DB6AAB /* Build configuration list for PBXProject "Marc Cuva" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49A1825A18F0F2CC00DB6AAB /* Debug */,
+				49A1825B18F0F2CC00DB6AAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49A1825C18F0F2CC00DB6AAB /* Build configuration list for PBXNativeTarget "Marc Cuva" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49A1825D18F0F2CC00DB6AAB /* Debug */,
+				49A1825E18F0F2CC00DB6AAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49A1825F18F0F2CC00DB6AAB /* Build configuration list for PBXNativeTarget "Marc CuvaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49A1826018F0F2CC00DB6AAB /* Debug */,
+				49A1826118F0F2CC00DB6AAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 49A1822218F0F2CC00DB6AAB /* Project object */;
+}
